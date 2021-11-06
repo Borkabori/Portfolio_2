@@ -112,6 +112,35 @@ p {
   margin: 20px 0;
 }
 
+.logo {
+  max-height: 42px;
+}
+
+nav {
+  padding: 20px 0px;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover {
+  color: var(--branding-color);
+}
+
 @media (max-width: 992px) {
   h1 {
     font-size: 44px;
