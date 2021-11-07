@@ -30,7 +30,7 @@ h2 {
 }
 
 h4 {
-  font-size: 26px;
+  font-size: 48px;
 }
 
 p {
@@ -178,6 +178,8 @@ footer .email-link {
   text-decoration: none;
   color: black;
   font-size: 24px;
+  display: flex;
+  justify-content: center;
 }
 
 footer .email-link:hover {
@@ -192,6 +194,8 @@ footer .social-links a {
   border-radius: 50%;
   font-size: 18px;
   transition: all 10ms ease-in-out;
+  display: flex;
+  justify-content: center;
 }
 
 @media (max-width: 992px) {
@@ -202,6 +206,10 @@ footer .social-links a {
 
   h2 {
     font-size: 44px;
+  }
+
+  h4 {
+    font-size: 26px;
   }
 
   .hero {
